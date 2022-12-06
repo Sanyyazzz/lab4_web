@@ -1,0 +1,151 @@
+.task1{
+    width: 300px;
+}
+
+.task5 .p{
+    color:green;
+}
+
+.task5 .pb{
+    font-size:24px;
+}
+
+.task5 .i{
+    border:1px solid black;
+}
+
+.task7{
+    width: 500px;
+}
+
+.task7 button{
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+}
+
+.task7 .content{
+    padding: 10px 10px;
+    width: 100%;
+    display: none;
+}
+
+
+
+.task8 .palitre{
+    padding: 5px 5px;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    width: 300px;
+    border: 1px solid red;
+}
+
+.task8 .slot{
+    margin: 5px 5px;
+}
+
+.task9{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background-color: darkkhaki;
+}
+
+.task9 .styleBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+.colorBar .green{
+    padding: 10px 10px;
+    background-color: green;
+}
+
+.colorBar .red{
+    padding: 10px 10px;
+    background-color: red;
+}
+
+.colorBar .blue{
+    padding: 10px 10px;
+    background-color: blue;
+}
+
+.colorBar .pink{
+    padding: 10px 10px;
+    background-color: pink;
+}
+
+.colorBar .orange{
+    padding: 10px 10px;
+    background-color: orange;
+}
+
+.colorBar .yellow{
+    padding: 10px 10px;
+    background-color: yellow;
+}
+
+.typeStyle button{
+    font-size: 18px;
+}
+
+.typeStyle .active{
+    background-color: grey;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.task9 .textArea{
+    height: 500px;
+}
+
+.task9 textarea{
+    font-family: "Arial";
+    margin-left: 10px;
+    height: 97%;
+}
+
+.forum{
+    width:800px;
+    padding: 10px 10px;
+    background-color: tan;
+}
+
+.forum input{
+    margin-bottom: 10px;
+}
+
+.forum textarea{
+    width: 90%;
+    height: 100px;
+}
+
+.author{
+    border-left: 2px solid black;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+
+.author h4{
+    margin-bottom: 10px;
+}
+
+.author article{
+
+}

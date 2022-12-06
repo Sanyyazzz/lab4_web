@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="task1">
+        <img src="image/new-york.jpg" width="150px">
+        <img src="image/chicago.jpg" width="150px">
+        <img src="image/los-angeles.jpg" width="150px">
+        <p id="srcString"> </p>
+    </div>
+    <br>
+    <div class="task2" id="numbers">
+        <p>5</p>
+        <p>13</p>
+        <p>7</p>
+    </div>
+    <br>
+    <div class="task3" id="links">
+        <a href="https://translate.google.com/?hl=uk">Google</a><br>
+        <a href="https://translate.google.com/?hl=uk">Google</a><br>
+        <a href="https://translate.google.com/?hl=uk">Google</a>
+    </div>
+    <br>
+    <div class="task4" id="inputs">
+        <input type="text" placeholder="length 10" /><br>
+        <input type="text" placeholder="length 10" /><br>
+        <input type="text" placeholder="length 10" /><br>
+    </div>
+    <br>
+    <div class="task5" id="elem">
+        <p class="p pb" id="pib">Призвіще Ім'я По-батькові</p>
+        <p id="countOfClass"></p>
+        <button id="changeClass">Change</button>
+        <button id="checkClass">Check</button>
+    </div>
+    <br>
+    <div class="task6" id="listBox">
+        <ol id="list">
+            <li>g</li>
+            <li>f</li>
+            <li>kh</li>
+        </ol>
+        <button id="addRow">Add</button>
+        <button id="deleteRow">Delete</button>
+    </div>
+    <br>
+    <div class="task7">
+        <button class="accordion">Section 1</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <button class="accordion">Section 2</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <button class="accordion">Section 3</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+    <br>
+    <div class="task8">
+        <div class="palitre" id="palitre">
+        </div>
+        <button id="addSlot">Add</button>
+    </div>
+    <br>
+    <div class="task9">
+        <div class="styleBar">
+            <div class="colorBar" id="colorButton">
+                <button class="red"></button>
+                <button class="green"></button>
+                <button class="blue"></button>
+                <button class="pink"></button>
+                <button class="yellow"></button>
+                <button class="orange"></button>
+            </div>
+            <div class="typeStyle" id="typeDecoration">
+                <button class="bold">B</button>
+                <button class="italic">I</button>
+                <button class="underline">U</button>
+            </div>
+            <div class="fontSize">
+                <input type="number" id="fontSize" step="1" value="14" width="30px">
+            </div>
+            <div class="styleOfType">
+                <select id="fontStyle">
+                    <option value="Arial">Arial</option>
+                    <option value="Times New Roman">Times New Roman</option>
+                </select>
+            </div>
+        </div>
+        <div class="textArea">
+            <textarea id="text" style="width: 90%"></textarea>
+        </div>
+    </div>
+    <br>
+    <div class="forum">
+        <div class="publish">
+            <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <hr>
+        <div id="comments">
+            <div class="author">
+                <h4>Author</h4>
+                <article>05.04.23</article>
+                <article>Best comment</article>
+            </div>
+        </div>
+        <hr>
+        <div id="adding">
+            <h4>Leave you comment</h4>
+            <label for="authorName">Name:</label>
+            <input type="text" id="authorName">
+            <br>
+            <label for="comment">Comment:</label><br>
+            <textarea id="comment"></textarea><br>
+            <button id="addComment">Add</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
